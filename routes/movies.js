@@ -13,7 +13,7 @@ router.get('/', function(req, res) {
 router.get('/new', moviesCtrl.new)
 
 // POST
-
+router.post('/', moviesCtrl.create)
 
 export {
   router
