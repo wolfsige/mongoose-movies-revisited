@@ -9,3 +9,9 @@ const movieSchema = new Schema({
   cast:[String],
   nowShowing: Boolean,
 })
+
+const Movie = mongoose.model('Movie', movieSchema)
+
+export {
+  Movie
+}
