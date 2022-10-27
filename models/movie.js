@@ -7,4 +7,5 @@ const movieSchema = new Schema({
   releaseYear: Number,
   MpaaRating: String,
   cast:[String],
+  nowShowing: Boolean,
 })
