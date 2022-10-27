@@ -9,7 +9,11 @@ router.get('/', function(req, res) {
   res.send('respond with a resource')
 })
 
+// GET
 router.get('/new', moviesCtrl.new)
+
+// POST
+
 
 export {
   router
